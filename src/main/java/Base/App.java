@@ -23,8 +23,7 @@ public class App {
     public static String getDimension(String dimension)
     {
         System.out.printf( "What is the %s of the room in feet ", dimension);
-        String quote = in.nextLine();
-        return quote;
+        return in.nextLine();
     }
 
     public static double stringToDouble(String number)
@@ -47,6 +46,4 @@ public class App {
         System.out.printf( "You entered dimensions of %.0f feet by %.0f feet.\nThe area is\n%.3f square feet\n" +
                 "%.3f square meters", length, width, areaImp, areaMetric);
     }
-
-
 }
